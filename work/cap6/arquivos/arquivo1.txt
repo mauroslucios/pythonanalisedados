@@ -1,0 +1,1 @@
+Trabalhando com arquivos em python, abrindo arquivo txt.
