@@ -15,3 +15,17 @@
 - Cap04-05-dicionarios
 - Cap04-06-tuplas
 - Exercicios_cap04
+##### Capítulo 5
+- Cap05-01-condicionais
+- Cap05-01-placeholder
+- Cap05-02-loop_for
+- Cap05-03-loop-while
+- Cap05-04-range
+- Cap05-05-metodos
+- Cap05-06-funcoes
+- Cap05-07-lambda
+- Cap05-08-List-comprehesion
+
+##### Capítulo 6
+- Cap06-01-arquivos
+- Cap06-02-txt-csv-json
