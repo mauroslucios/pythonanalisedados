@@ -29,3 +29,7 @@
 ##### Capítulo 6
 - Cap06-01-arquivos
 - Cap06-02-txt-csv-json
+    - Manipulação de arquivo de TXT usando Python
+    - Manipulação de arquivo CSV usando Python
+    - Manipulação de arquivo JSON usando Python
+    - Web Scraping usando Python
