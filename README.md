@@ -27,7 +27,8 @@
 - Cap05-08-List-comprehesion
 
 ##### Capítulo 6
-- Cap06-01-arquivos
+- Cap06-01-
+    - Read, Write arquivos usando Python
 - Cap06-02-txt-csv-json
     - Manipulação de arquivo de TXT usando Python
     - Manipulação de arquivo CSV usando Python
