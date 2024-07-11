@@ -29,8 +29,10 @@
 ##### Capítulo 6
 - Cap06-01-
     - Read, Write arquivos usando Python
-    - Cap06-02-txt-csv-json
+- Cap06-02-txt-csv-json
     - Manipulação de arquivo de TXT usando Python
     - Manipulação de arquivo CSV usando Python
     - Manipulação de arquivo JSON usando Python
     - Web Scraping usando Python
+- Cap06-03-módulos-e-pacotes
+    - Evidênciando diferenças entre módulos e pacotes
