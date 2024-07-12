@@ -27,7 +27,7 @@
 - Cap05-08-List-comprehesion
 
 ##### Capítulo 6
-- Cap06-01-
+- Cap06-01-arquivos
     - Read, Write arquivos usando Python
 - Cap06-02-txt-csv-json
     - Manipulação de arquivo de TXT usando Python
@@ -36,3 +36,7 @@
     - Web Scraping usando Python
 - Cap06-03-módulos-e-pacotes
     - Evidênciando diferenças entre módulos e pacotes
+- Cap06-04-Map
+    - Usando a função map
+- Cap06-05-Reduce
+    - Usando a função reduce
