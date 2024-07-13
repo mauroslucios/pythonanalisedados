@@ -40,3 +40,5 @@
     - Usando a função map
 - Cap06-05-Reduce
     - Usando a função reduce
+- Cap06-06-Filter
+    - Usando a função filter
