@@ -42,3 +42,8 @@
     - Usando a função reduce
 - Cap06-06-Filter
     - Usando a função filter
+- Cap06-07-Zip
+    - Usando a função zip
+- Cap06-08-Enumerate
+    - Usando a função enumerate
+
