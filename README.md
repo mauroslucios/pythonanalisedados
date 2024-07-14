@@ -46,4 +46,6 @@
     - Usando a função zip
 - Cap06-08-Enumerate
     - Usando a função enumerate
+- Cap06-09-Tratamento de Erros e Exceções
+    - Erros e Exceções
 
