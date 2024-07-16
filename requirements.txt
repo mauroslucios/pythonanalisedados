@@ -1,7 +1,7 @@
 astroid==3.1.0
 beautifulsoup4==4.12.3
 blinker==1.8.1
-certifi==2024.2.2
+certifi>=2024.07.04
 cfgv==3.4.0
 charset-normalizer==3.3.2
 click==8.1.7
