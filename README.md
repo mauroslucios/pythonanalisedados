@@ -48,4 +48,6 @@
     - Usando a função enumerate
 - Cap06-09-Tratamento de Erros e Exceções
     - Erros e Exceções
+- Cap06-10-Regex Python
+    - Regex
 
