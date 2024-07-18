@@ -49,5 +49,9 @@
 - Cap06-09-Tratamento de Erros e Exceções
     - Erros e Exceções
 - Cap06-10-Regex Python
-    - Regex
+    - 
+##### Capítulo 7
+- Cap07-01-Prática de exercícios
+    - Jogo da forca
+
 
