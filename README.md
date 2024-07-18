@@ -49,7 +49,7 @@
 - Cap06-09-Tratamento de Erros e Exceções
     - Erros e Exceções
 - Cap06-10-Regex Python
-    - Regex com funçõ "re" e regex normal
+    - Regex com função "re" e regex normal
 ##### Capítulo 7
 - Cap07-01-Prática de exercícios
     - Jogo da forca
