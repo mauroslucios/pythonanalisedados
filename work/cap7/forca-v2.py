@@ -43,3 +43,5 @@ def game():
 
         # Tentativa
         tentativa = input("\nDigite uma letra: ")
+
+        # Condicional 
