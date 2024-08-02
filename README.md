@@ -53,5 +53,7 @@
 ##### Capítulo 7
 - Cap07-01-Prática de exercícios
     - Jogo da forca
+    - Jogo da forca versão 2
+    - Pseudocodigo jogo da forca
 
 
