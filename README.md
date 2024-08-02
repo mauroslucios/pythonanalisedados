@@ -55,5 +55,7 @@
     - Jogo da forca
     - Jogo da forca versão 2
     - Pseudocodigo jogo da forca
+- Cap08-01-POO-classes
+    - Classes
 
 
