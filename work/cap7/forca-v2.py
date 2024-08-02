@@ -10,6 +10,82 @@ def limpa_tela():
     # Mac ou Linux
     else:
         _= system('clear')
+# Função que desenha a forca na tela
+def display_hangman(chances):
+    #Lista de estágios da forca
+    stages = [ 
+        # estágio 6 (final)
+        """
+            --------
+            |      |
+            |      0
+            |     \\//
+            |      |
+            |     / \\
+            _
+        """,  
+        # estágio 5
+        """
+            --------
+            |      |
+            |      0
+            |     \\//
+            |      |
+            |     / 
+            _
+        """,   
+        # estágio 4
+        """
+            --------
+            |      |
+            |      0
+            |     \\//
+            |      |
+            |  
+            _
+        """,    
+        # estágio 3
+        """
+            --------
+            |      |
+            |      0
+            |     \\/
+            |      |
+            |  
+            _
+        """,    
+        # estágio 2
+        """
+            --------
+            |      |
+            |      0
+            |      |
+            |      |
+            |     
+            _
+        """,   
+        # estágio 1
+        """
+            --------
+            |      |
+            |      0
+            |     
+            |     
+            |     
+            _
+        """,
+        # estágio 0
+        """
+            --------
+            |      |
+            |      
+            |     
+            |     
+            |     
+            _
+        """    
+    ]
+    return stages[chances]
 
 # Função
 def game():
@@ -45,3 +121,34 @@ def game():
         tentativa = input("\nDigite uma letra: ")
 
         # Condicional 
+        if tentativa in letras_tentativas:
+            print("Você já tentou essa letra. Escolha outra!")
+            continue
+        # Lista de tentativas (letras)
+        letras_tentativas.append(tentativa)
+
+        # Condicional
+        if tentativa in lista_letras_palavras:
+            print("Você acertou a letra!")
+            # Loop
+            for indice in range(len(lista_letras_palavras)):
+                # Condicional
+                if lista_letras_palavras[indice] == tentativa:
+                    tabuleiro[indice] = tentativa
+
+            # Se todos os espaços foram preenchidos, o jogo acabou
+            if "_" not in tabuleiro:
+                print("\nVocẽ venceu! A palavra era: {}".format(palavra))
+                break
+        else:
+            print("Ops. Essa letra não está na palavra!")
+            chances -= 1
+    # Condicional
+    if "_" in tabuleiro:
+        print("\nVocê perdeu! A palavra era: {}.".format(palavra))
+
+# Bloco main
+if __name__ == "__main__":
+    game()
+    print("\nParabéns! Você esta aprendendo programação em Python coma DSA. :)\n")   
+                    
