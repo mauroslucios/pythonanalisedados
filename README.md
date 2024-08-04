@@ -96,4 +96,7 @@ class ClasseFilha(ClassePai):
         print("Método da classe filha")
 
 ```
-- Cap08-05-Polimorfismo
+- Cap08-05-
+    - Sobrescrita de Métodos (Overriding)
+    - Métodos com o Mesmo Nome (Duck Typing)
+
