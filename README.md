@@ -60,8 +60,8 @@
         - métodos
         - atributos
 
-`Uma classe tem métodos e atributos, tudo em Python são objetos, então um objeto tem métodos e atributos.</br>
-O primeiro método que todas as classes devem fornecer é o construtor. O construtor define a maneira como os objetos de dados são criados. Para criar um objeto Fraction, precisaremos fornecer dois dados, o numerador e denominador. Em Python, o método construtor é sempre chamado __init__ (com dois underscores antes e depois de init).`
+`Uma classe tem métodos e atributos, tudo em Python são objetos, então um objeto tem métodos e atributos.` </br>
+`O primeiro método que todas as classes devem fornecer é o construtor. O construtor define a maneira como os objetos de dados são criados. Para criar um objeto Fraction, precisaremos fornecer dois dados, o numerador e denominador. Em Python, o método construtor é sempre chamado `<strong>__init__</strong>` (com dois underscores antes e depois de init).`
 
 ```
     class Somar:
