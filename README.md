@@ -69,5 +69,5 @@ O primeiro método que todas as classes devem fornecer é o construtor. O constr
     def __init__(self, param1, param2):
 
         self.parametro1 = param1
-        self.parametro2 = param22
+        self.parametro2 = param2
 ```
