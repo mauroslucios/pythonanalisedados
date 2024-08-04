@@ -59,8 +59,11 @@
     - Classes
         - métodos
         - atributos
+        - objetos
 
-`Uma classe tem métodos e atributos, tudo em Python são objetos, então um objeto tem métodos e atributos.` </br>
+- Cap08-02-Objetos</br>
+`Uma classe tem métodos e atributos, tudo em Python são objetos, então um objeto tem métodos e atributos. Objetos são uma instância de uma classe.`
+- Cap08-03-Métodos</br>
 `O primeiro método que todas as classes devem fornecer é o construtor. O construtor define a maneira como os objetos de dados são criados. Para criar um objeto Fraction, precisaremos fornecer dois dados, o numerador e denominador. Em Python, o método construtor é sempre chamado `<strong>__init__</strong>` (com dois underscores antes e depois de init).`
 
 ```
@@ -70,4 +73,26 @@
 
         self.parametro1 = param1
         self.parametro2 = param2
+```
+`
+- Cap08-04-Herança
+    - Sintaxe:<br/>
+A sintaxe básica para herança em Python é a seguinte:
+`
+```
+class ClassePai:
+    def __init__(self, atributo1):
+        self.atributo1 = atributo1
+
+    def metodo_pai(self):
+        print("Método da classe pai")
+
+class ClasseFilha(ClassePai):
+    def __init__(self, atributo1, atributo2):
+        super().__init__(atributo1)  # Chama o construtor da classe pai
+        self.atributo2 = atributo2
+
+    def metodo_filha(self):
+        print("Método da classe filha")
+
 ```
