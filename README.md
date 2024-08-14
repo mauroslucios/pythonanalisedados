@@ -102,3 +102,4 @@ class ClasseFilha(ClassePai):
     - Jogo da forca (POO)
 
 
+- Cap09-Funções Numpy
